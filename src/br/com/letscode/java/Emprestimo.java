@@ -55,13 +55,13 @@ public class Emprestimo {
         int contDiasUteis = 0;
 
         while (contDiasUteis < prazoEmDias) {
+            date = date.plusDays(1);
             boolean fimDeSemana = date.getDayOfWeek().equals(DayOfWeek.SATURDAY)
                 || date.getDayOfWeek().equals(DayOfWeek.SUNDAY);
 
             if (!fimDeSemana && !feriados.contains(date)) {
                 contDiasUteis++;//dia útil
             }
-            date = date.plusDays(1);
         }
         return date;
     }

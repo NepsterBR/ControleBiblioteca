@@ -7,7 +7,7 @@ public class Aplicacao {
     public static void main(String[] args) {
         Aplicacao aplicacao = new Aplicacao();
         //1 - quantidade máxima de livros por empréstimo
-       //aplicacao.emprestimoAcimaDoMaximo();
+//       aplicacao.emprestimoAcimaDoMaximo();
         //2 - o prazo de devolução para empréstimo de aluno é de 10 dias úteis
 //        aplicacao.prazoDevolucaoAluno();
         //3 - Aluno não pode realizar mais de um empréstimo
@@ -15,7 +15,7 @@ public class Aplicacao {
         //4 - Aluno suspenso tentando pegar livro
 //        aplicacao.alunoSuspenso();
         //5 - Professor tentando pegar mais livros que o permitido
-        aplicacao.professorLivrosDemais();
+//        aplicacao.professorLivrosDemais();
     }
 
     /**
