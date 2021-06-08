@@ -3,3 +3,5 @@ Uma escola deseja criar um sistema para controle de sua biblioteca. Os alunos po
 Professores podem pegar também 3 livros, porém com prazo de 20 dias. Além disso, professores podem realizar mais de um empréstimo simultâneo não ultrapassando o limite de 5 livros e respeitando os prazos de devolução.
 
 O cadastro dos livros é feito por isbn, título, autor, editora. Os alunos e professores, além de nome e matrícula, devem informar seu e-mail para contato. Certifique-se de checar os feriados nacionais.
+
+OBS: Projeto feito ao vivo com apoio do professor (https://github.com/jessehaniel).
